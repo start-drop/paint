@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画图</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrap">
+        <canvas id="mycavs" width="1000" height="500"></canvas>
+        <ul class="list">
+            <li><input class="color" type="color" value="colorBoard"></li>
+            <li><input class="clear" type="button" value="清屏"></li>
+            <li><input class="eraser" type="button" value="橡皮"></li>
+            <li><input class="recine" type="button" value="撤销"></li>
+            <li><input class="line" type="range" value="线条" min='1' max ='30'></li>
+        </ul>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
